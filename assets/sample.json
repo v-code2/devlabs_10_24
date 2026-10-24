@@ -1,0 +1,18 @@
+{
+  "balance": "420",
+  "payday": "2026-11-07",
+  "buffer": "40",
+  "bills": [
+    {"name": "Phone", "amount": "45"},
+    {"name": "Streaming", "amount": "15"}
+  ],
+  "goal": {
+    "name": "Grad school",
+    "target": "12000",
+    "saved": "1500",
+    "monthly": "250",
+    "deadline": "2029-10-24",
+    "rate": "0"
+  },
+  "tempted": []
+}
