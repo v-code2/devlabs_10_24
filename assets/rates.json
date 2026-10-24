@@ -1,0 +1,41 @@
+{
+  "source": "https://cfo.asu.edu/daily-and-hourly",
+  "as_of": "2026-10-24",
+  "note": "Copied by the team from ASU Parking and Transportation Services' daily and hourly parking page on the as_of date. Rates change: read the live page first and pass any differences to the script with --tiers, --max, --hourly and --limit-min. The page does not say how part hours are billed in lots, so lot costs are estimates.",
+  "weekend": "All ASU Tempe weekend visitors must pull a ticket and pay for garage use.",
+  "payment": "Garage pay machines (exit lanes and walk-up) accept Visa and MasterCard. Lots use ParkMobile or AMP Park as posted.",
+  "garage": {
+    "names": [
+      "Apache Boulevard",
+      "Fulton Center",
+      "Mill Avenue Parking Structure",
+      "Myrtle Avenue",
+      "Novus",
+      "Packard Drive",
+      "Rural Road",
+      "Stadium",
+      "Tyler Street",
+      "University Towers"
+    ],
+    "tiers": [[60, 4], [120, 8], [180, 12], [240, 16]],
+    "max": 16
+  },
+  "lots": {
+    "default": {"hourly": 3, "max": 15, "limit_min": null},
+    "named": {
+      "lot 3": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 9": {"hourly": 3, "max": 6, "limit_min": 120},
+      "lot 13": {"hourly": 3, "max": 6, "limit_min": 120},
+      "lot 19": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 27": {"hourly": 3, "max": 3, "limit_min": 60},
+      "lot 44": {"hourly": 3, "max": 6, "limit_min": 120},
+      "lot 45": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 46": {"hourly": 3, "max": 3, "limit_min": 60},
+      "lot 50": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 55": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 59": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 63": {"hourly": 3, "max": 15, "limit_min": null},
+      "lot 67": {"hourly": 3, "max": 15, "limit_min": null}
+    }
+  }
+}
