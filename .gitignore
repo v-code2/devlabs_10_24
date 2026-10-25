@@ -1,0 +1,11 @@
+.env
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+

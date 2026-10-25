@@ -1,0 +1,42 @@
+# Milestones for a funded campus event, defined as days-before-event offsets.
+# All values are editable per org. 'needs_approval: true' triggers approver DMs.
+# 'is_rff: true' marks the Request for Funds milestone — the Event.rff_deadline
+# is set from this task's due date.
+milestones:
+  - key: vendor_outreach_start
+    title: "Start vendor outreach (DJ, catering, decor)"
+    days_before: 35
+    needs_approval: false
+
+  - key: quotes_due
+    title: "Collect vendor quotes"
+    days_before: 28
+    needs_approval: false
+
+  # TODO: set rff `days_before` to PAB's real RFF lead time.
+  # 21 is a placeholder; real PAB RFF windows are typically longer.
+  - key: rff_submit
+    title: "Submit Request for Funds (RFF) form"
+    days_before: 21
+    needs_approval: true
+    is_rff: true
+
+  - key: marketing_launch
+    title: "Launch marketing (posters, social, flyers)"
+    days_before: 14
+    needs_approval: false
+
+  - key: final_headcount
+    title: "Confirm final headcount with vendors"
+    days_before: 5
+    needs_approval: false
+
+  - key: day_of_logistics
+    title: "Finalize day-of logistics (setup, run-of-show, cleanup)"
+    days_before: 2
+    needs_approval: false
+
+  - key: post_event_reconciliation
+    title: "Post-event reconciliation (receipts, final budget, debrief)"
+    days_before: -3   # negative = after the event
+    needs_approval: false
